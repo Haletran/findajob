@@ -19,10 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: cd fetch && npm install
-
-      - name: Update repo
-        run: git pull --rebase
-
+        
       - name: Generate new info
         run: node fetch/fetch.js
 
