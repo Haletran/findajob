@@ -34,8 +34,9 @@
                 
                 const websites = ['Welcometothejungle', 'MeteoJob', 'HelloWork'];
                 websites.forEach(site => {
-                    const li = document.createElement('li');
+                    const li = document.createElement('a');
                     li.textContent = site;
+                    li.href = `https://www.${site}.com`;
                     li.classList.add('hover:text-gray-300', 'cursor-pointer');
                     websiteList.appendChild(li);
                 });
