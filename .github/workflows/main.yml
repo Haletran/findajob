@@ -1,0 +1,42 @@
+name: Update Info
+
+on:
+  schedule:
+    - cron: "0 */5 * * *"
+  workflow_dispatch: # Permet de lancer manuellement le workflow
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: cd fetch && npm install
+
+      - name: Update repo
+        run: git pull --rebase
+
+      - name: Generate new info
+        run: node fetch/fetch.js
+
+      - name: Commit and push if non-empty changes exist
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git fetch
+          git add .
+
+          # Check if there are any non-empty files staged for commit
+          if [ -n "$(git diff --cached --name-only | xargs -I{} bash -c 'if [ -s {} ]; then echo {}; fi')" ]; then
+            git commit -am "Update Jobs $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+          else
+            echo "No non-empty files to commit."
+          fi
