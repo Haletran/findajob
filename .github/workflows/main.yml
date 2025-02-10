@@ -1,11 +1,11 @@
 name: Update Info
 on:
   schedule:
-    - cron: "0 */5 * * *"  # Fixed the cron syntax - you were missing a *
+    - cron: "0 */5 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write  # This gives permission to push to the repository
+  contents: write
 
 jobs:
   build:
