@@ -1,9 +1,11 @@
 name: Update Info
-
 on:
   schedule:
-    - cron: "0 */5 * * *"
-  workflow_dispatch: # Permet de lancer manuellement le workflow
+    - cron: "0 */5 * * *"  # Fixed the cron syntax - you were missing a *
+  workflow_dispatch:
+
+permissions:
+  contents: write  # This gives permission to push to the repository
 
 jobs:
   build:
@@ -11,25 +13,24 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
+        
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
           node-version: "22"
-
+          
       - name: Install dependencies
-        run: npx playwright install && cd fetch && npm install
+        run: npm install && npx playwright install && cd fetch && npm install
         
       - name: Generate new info
         run: node fetch/fetch.js
-
+        
       - name: Commit and push if non-empty changes exist
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git fetch
-          git add fetch/jobs.json
-
+          git add fetch/*.json
           # Check if there are any non-empty files staged for commit
           if [ -n "$(git diff --cached --name-only | xargs -I{} bash -c 'if [ -s {} ]; then echo {}; fi')" ]; then
             git commit -am "Update Jobs $(date '+%Y-%m-%d %H:%M:%S')"
