@@ -30,7 +30,7 @@ jobs:
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git fetch
-          git add fetch/*.json
+          git add fetch/jobs.json
           # Check if there are any non-empty files staged for commit
           if [ -n "$(git diff --cached --name-only | xargs -I{} bash -c 'if [ -s {} ]; then echo {}; fi')" ]; then
             git commit -am "Update Jobs $(date '+%Y-%m-%d %H:%M:%S')"
