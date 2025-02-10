@@ -22,10 +22,32 @@
                 jobCount.textContent = `${jobListings.length} annonces`;
                 jobListingsContainer.appendChild(jobCount);
 
-                const websitlist = document.createElement('ul');
-                websitlist.classList.add('flex', 'space-x-4', 'text-gray-500', 'justify-center');
-                websitlist.textContent = 'Sites fetch: Welcometothejungle, MeteoJob, HelloWork';
-                jobListingsContainer.appendChild(websitlist);
+                const metaInfo = document.createElement('div');
+                metaInfo.classList.add('text-center', 'mb-8', 'mt-4');
+
+                const websiteHeading = document.createElement('h3');
+                websiteHeading.classList.add('text-gray-400', 'font-semibold', 'mb-2');
+                websiteHeading.textContent = 'Sources:';
+
+                const websiteList = document.createElement('ul');
+                websiteList.classList.add('flex', 'space-x-6', 'justify-center', 'text-gray-500');
+                
+                const websites = ['Welcometothejungle', 'MeteoJob', 'HelloWork'];
+                websites.forEach(site => {
+                    const li = document.createElement('li');
+                    li.textContent = site;
+                    li.classList.add('hover:text-gray-300', 'cursor-pointer');
+                    websiteList.appendChild(li);
+                });
+
+                const updateTime = document.createElement('p');
+                updateTime.classList.add('text-gray-500', 'text-sm', 'mt-4');
+                updateTime.innerHTML = '<span class="font-medium">🔄 Mise à jour:</span> Toutes les 5 heures';
+
+                metaInfo.appendChild(websiteHeading);
+                metaInfo.appendChild(websiteList);
+                metaInfo.appendChild(updateTime);
+                jobListingsContainer.appendChild(metaInfo);
                 jobListings.forEach(job => {
                     const jobItem = document.createElement('div');
                     jobItem.classList.add('job-item', 'bg-gray-700', 'p-6', 'rounded-lg', 'shadow-md');
