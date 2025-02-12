@@ -20,7 +20,7 @@ jobs:
           node-version: "22"
           
       - name: Install dependencies
-        run: npx playwright install && cd fetch && npm install
+        run: npx playwright install && cd fetch && npm install && rm jobs.json
         
       - name: Generate new info
         run: node fetch/fetch.js
