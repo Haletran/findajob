@@ -62,24 +62,6 @@ async function hellowork() {
     return jobCount;
 }
 
-async function indeed() {
-    const browser = await chromium.launch({ headless: true });
-    const context = await browser.newContext({ userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36' });
-    const page = await context.newPage();
-
-    await page.goto('https://fr.indeed.com/jobs?q=&l=Angoul%C3%AAme+%2816%29&sc=0kf%3Aattr%28CPAHG%7CVDTG7%252COR%29cmpsec%28NKR5F%29%3B&from=searchOnDesktopSerp&vjk=7e68cbd250d77b37')
-    const jobCount = await page.$eval('.jobsearch-JobCountAndSortPane-jobCount', el => parseInt(el.textContent.match(/\d+/)[0]));
-    if (jobCount === 0) {
-        console.log('No jobs found');
-        await browser.close();
-        return;
-    }
-    nbjobs += jobCount;
-    console.log(jobCount);
-    await browser.close();
-    return jobCount;
-}
-
 async function generateJSONdb() {
     if (!jobListings.length) {
         console.log('No jobs to add to db');
@@ -105,10 +87,6 @@ async function main() {
     spinner.start('Getting jobs from meteojob...');
     const mjJobs = await meteojob();
     spinner.succeed(`Found ${mjJobs} jobs`);
-
-    spinner.start('Getting jobs from indeed...');
-    const indeedJobs = await indeed();
-    spinner.succeed(`Found ${indeedJobs} jobs`);
 
     spinner.start('Generating JSON database...');
     await generateJSONdb();

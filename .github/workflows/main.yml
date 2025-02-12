@@ -1,7 +1,6 @@
 name: Update Info
-on:
-  schedule:
-    - cron: "0 */5 * * *"
+schedule:
+  - cron: "0 */2 * * *"
   workflow_dispatch:
 
 permissions:
