@@ -1,19 +1,5 @@
 [
   {
-    "title": "Alternance - Ingénieur Electronique, systèmes embarqués et objets connectés (Angoulême - 16) F/H",
-    "company": "Schneider Electric",
-    "location": "L'Isle-d'Espagnac",
-    "link": "https://www.welcometothejungle.com/fr/companies/schneider-electric/jobs/alternance-ingenieur-electronique-systemes-embarques-et-objets-connectes-angouleme-16-f-h_l-isle-d-espagnac?q=68b1678618ade2fa01673aaa061f9456&o=0b004447-8369-41df-b915-711ac4e67f92",
-    "type": "Alternance"
-  },
-  {
-    "title": "STAGE OUVRIER DECOUVERTE DES TP 16 F/H",
-    "company": "VINCI Construction",
-    "location": "Saint-Yrieix-sur-Charente",
-    "link": "https://www.welcometothejungle.com/fr/companies/vinci-construction-fr/jobs/stage-ouvrier-decouverte-des-tp-16-f-h_saint-yrieix-sur-charente_VC_d4oP64V?q=68b1678618ade2fa01673aaa061f9456&o=f910981a-9220-4735-9b13-d1bff7d9470a",
-    "type": "Stage"
-  },
-  {
     "title": "Alternance DevOps H/F",
     "company": "Wild Code School",
     "location": "Angoulême - 16",
@@ -56,17 +42,24 @@
     "type": "Alternance"
   },
   {
+    "title": "Stagiaire Audit H/F",
+    "company": "KPMG",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/61745085.html",
+    "type": "Stage"
+  },
+  {
+    "title": "Consultant Stagiaire Transformation Secteur Public H/F",
+    "company": "KPMG",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/61740210.html",
+    "type": "Stage"
+  },
+  {
     "title": "Stage Fiscalité Patrimoniale H/F",
     "company": "KPMG",
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/60316904.html",
-    "type": "Stage"
-  },
-  {
-    "title": "Stagiaire RH Généraliste H/F",
-    "company": "KPMG",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/61598920.html",
     "type": "Stage"
   },
   {
@@ -75,6 +68,13 @@
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/61702937.html",
     "type": "Alternance"
+  },
+  {
+    "title": "Stagiaire RH Généraliste H/F",
+    "company": "KPMG",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/61598920.html",
+    "type": "Stage"
   },
   {
     "title": "Alternance Chargé·e de Communication & Marketing H/F",
@@ -88,6 +88,13 @@
     "company": "KPMG",
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/61641114.html",
+    "type": "Alternance"
+  },
+  {
+    "title": "Alternant Bac+3 - 4 - Administrateur Systèmes Réseaux et Cybersécurité H/F",
+    "company": "Live Campus",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/12860957.html",
     "type": "Alternance"
   },
   {
@@ -203,27 +210,6 @@
     "type": "Alternance"
   },
   {
-    "title": "Alternant Bac+3 - 4 - Ux - Ui Designer & Marketing Digital H/F",
-    "company": "Live Campus",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/30442345.html",
-    "type": "Alternance"
-  },
-  {
-    "title": "Consultant Stagiaire Finance Strategy & Performance H/F",
-    "company": "KPMG",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/57545637.html",
-    "type": "Stage"
-  },
-  {
-    "title": "Consultant Stagiaire Finance Strategy & Performance H/F",
-    "company": "KPMG",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/57545634.html",
-    "type": "Stage"
-  },
-  {
     "title": "Développeur C++ - Qt H/F - Alternance - GRANDES ECOLES DIGITALES",
     "company": "One business School",
     "location": "Angoulême (16)",
@@ -231,14 +217,14 @@
     "type": "Alternance / Apprentissage - 1 an"
   },
   {
-    "title": "Ingénieur en systèmes de gestion de la maintenance H/F - Alternance - GRANDES ECOLES DIGITALES",
+    "title": "Chef de Projets Informatiques H/F - Alternance - GRANDES ECOLES DIGITALES",
     "company": "One business School",
     "location": "Angoulême (16)",
     "link": "https://www.meteojob.com/jobs?what=D%C3%A9veloppeur&where=Angoul%C3%AAme%20(16)&facetContract=TRAINING&facetContract=APPRENTICE",
     "type": "Alternance / Apprentissage - 1 an"
   },
   {
-    "title": "Chef de Projets Informatiques H/F - Alternance - GRANDES ECOLES DIGITALES",
+    "title": "Ingénieur en systèmes de gestion de la maintenance H/F - Alternance - GRANDES ECOLES DIGITALES",
     "company": "One business School",
     "location": "Angoulême (16)",
     "link": "https://www.meteojob.com/jobs?what=D%C3%A9veloppeur&where=Angoul%C3%AAme%20(16)&facetContract=TRAINING&facetContract=APPRENTICE",
