@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div id="job-listings" class="space-y-4">
@@ -31,7 +33,7 @@
 
                 const websiteList = document.createElement('ul');
                 websiteList.classList.add('flex', 'space-x-6', 'justify-center', 'text-gray-500');
-                
+
                 const websites = ['Welcometothejungle', 'MeteoJob', 'HelloWork'];
                 websites.forEach(site => {
                     const li = document.createElement('a');
@@ -50,6 +52,9 @@
                 metaInfo.appendChild(updateTime);
                 jobListingsContainer.appendChild(metaInfo);
                 jobListings.forEach(job => {
+                    if (job.company.includes('School') || job.company.includes('Campus')) {
+                        return;
+                    }
                     const jobItem = document.createElement('div');
                     jobItem.classList.add('job-item', 'bg-gray-700', 'p-6', 'rounded-lg', 'shadow-md');
                     jobItem.innerHTML = `
@@ -68,4 +73,5 @@
     </script>
     </script>
 </body>
+
 </html>
