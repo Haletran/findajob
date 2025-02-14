@@ -7,17 +7,17 @@
     "type": "Alternance"
   },
   {
-    "title": "Alternance DevOps H/F",
-    "company": "Wild Code School",
-    "location": "Angoulême - 16",
-    "link": "https://www.hellowork.com/fr-fr/emplois/55816778.html",
-    "type": "Alternance"
-  },
-  {
     "title": "Alternance Administrateur d'Infrastructures Sécurisées H/F",
     "company": "Wild Code School",
     "location": "Angoulême - 16",
     "link": "https://www.hellowork.com/fr-fr/emplois/55816773.html",
+    "type": "Alternance"
+  },
+  {
+    "title": "Alternance DevOps H/F",
+    "company": "Wild Code School",
+    "location": "Angoulême - 16",
+    "link": "https://www.hellowork.com/fr-fr/emplois/55816778.html",
     "type": "Alternance"
   },
   {
@@ -47,13 +47,6 @@
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/61740210.html",
     "type": "Stage"
-  },
-  {
-    "title": "Alternant - Risk Management H/F",
-    "company": "KPMG",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/61702937.html",
-    "type": "Alternance"
   },
   {
     "title": "Stage Fiscalité Patrimoniale H/F",
@@ -91,17 +84,17 @@
     "type": "Alternance"
   },
   {
-    "title": "Alternance RH Généraliste Kpmg Avocats H/F",
-    "company": "KPMG",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/61598922.html",
-    "type": "Alternance"
-  },
-  {
     "title": "Offre d'Alternance Growth Hacker - Bac+4 - Full Remote H/F",
     "company": "",
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/60361423.html",
+    "type": "Alternance"
+  },
+  {
+    "title": "Alternance RH Généraliste Kpmg Avocats H/F",
+    "company": "KPMG",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/61598922.html",
     "type": "Alternance"
   },
   {
@@ -207,6 +200,13 @@
     "company": "Live Campus",
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/30442345.html",
+    "type": "Alternance"
+  },
+  {
+    "title": "Alternant Bac+3 - 4 - Développeur Web - Logiciel H/F",
+    "company": "Live Campus",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/13354761.html",
     "type": "Alternance"
   },
   {
