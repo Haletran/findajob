@@ -7,17 +7,17 @@
     "type": "Alternance"
   },
   {
-    "title": "Alternance Administrateur d'Infrastructures Sécurisées H/F",
-    "company": "Wild Code School",
-    "location": "Angoulême - 16",
-    "link": "https://www.hellowork.com/fr-fr/emplois/55816773.html",
-    "type": "Alternance"
-  },
-  {
     "title": "Alternance DevOps H/F",
     "company": "Wild Code School",
     "location": "Angoulême - 16",
     "link": "https://www.hellowork.com/fr-fr/emplois/55816778.html",
+    "type": "Alternance"
+  },
+  {
+    "title": "Alternance Administrateur d'Infrastructures Sécurisées H/F",
+    "company": "Wild Code School",
+    "location": "Angoulême - 16",
+    "link": "https://www.hellowork.com/fr-fr/emplois/55816773.html",
     "type": "Alternance"
   },
   {
@@ -63,18 +63,18 @@
     "type": "Stage"
   },
   {
-    "title": "Stagiaire RH Généraliste H/F",
-    "company": "KPMG",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/61598920.html",
-    "type": "Stage"
-  },
-  {
     "title": "Alternant Bac+3 - 4 - Administrateur Systèmes Réseaux et Cybersécurité H/F",
     "company": "Live Campus",
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/12860957.html",
     "type": "Alternance"
+  },
+  {
+    "title": "Stagiaire RH Généraliste H/F",
+    "company": "KPMG",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/61598920.html",
+    "type": "Stage"
   },
   {
     "title": "Alternance Chargé·e de Communication & Marketing H/F",
