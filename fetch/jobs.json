@@ -1,5 +1,26 @@
 [
   {
+    "title": "Alternance Administrateur d'Infrastructures Sécurisées H/F",
+    "company": "Wild Code School",
+    "location": "Angoulême - 16",
+    "link": "https://www.hellowork.com/fr-fr/emplois/55816774.html",
+    "type": "Alternance"
+  },
+  {
+    "title": "Alternance Administrateur d'Infrastructures Sécurisées H/F",
+    "company": "Wild Code School",
+    "location": "Angoulême - 16",
+    "link": "https://www.hellowork.com/fr-fr/emplois/55816773.html",
+    "type": "Alternance"
+  },
+  {
+    "title": "Alternance DevOps H/F",
+    "company": "Wild Code School",
+    "location": "Angoulême - 16",
+    "link": "https://www.hellowork.com/fr-fr/emplois/55816778.html",
+    "type": "Alternance"
+  },
+  {
     "title": "Data Architect Formation Alternance Bac +4 - 5 - Septembre 2025 H/F",
     "company": "Sup de Vinci Bordeaux",
     "location": "Nouvelle-Aquitaine",
@@ -11,27 +32,6 @@
     "company": "Sup de Vinci Bordeaux",
     "location": "Nouvelle-Aquitaine",
     "link": "https://www.hellowork.com/fr-fr/emplois/61450924.html",
-    "type": "Alternance"
-  },
-  {
-    "title": "Alternance DevOps H/F",
-    "company": "Wild Code School",
-    "location": "Angoulême - 16",
-    "link": "https://www.hellowork.com/fr-fr/emplois/55816778.html",
-    "type": "Alternance"
-  },
-  {
-    "title": "Alternance Administrateur d'Infrastructures Sécurisées H/F",
-    "company": "Wild Code School",
-    "location": "Angoulême - 16",
-    "link": "https://www.hellowork.com/fr-fr/emplois/55816773.html",
-    "type": "Alternance"
-  },
-  {
-    "title": "Alternance Administrateur d'Infrastructures Sécurisées H/F",
-    "company": "Wild Code School",
-    "location": "Angoulême - 16",
-    "link": "https://www.hellowork.com/fr-fr/emplois/55816774.html",
     "type": "Alternance"
   },
   {
@@ -217,14 +217,14 @@
     "type": "Alternance / Apprentissage - 1 an"
   },
   {
-    "title": "Chef de Projets Informatiques H/F - Alternance - GRANDES ECOLES DIGITALES",
+    "title": "Ingénieur en systèmes de gestion de la maintenance H/F - Alternance - GRANDES ECOLES DIGITALES",
     "company": "One business School",
     "location": "Angoulême (16)",
     "link": "https://www.meteojob.com/jobs?what=D%C3%A9veloppeur&where=Angoul%C3%AAme%20(16)&facetContract=TRAINING&facetContract=APPRENTICE",
     "type": "Alternance / Apprentissage - 1 an"
   },
   {
-    "title": "Ingénieur en systèmes de gestion de la maintenance H/F - Alternance - GRANDES ECOLES DIGITALES",
+    "title": "Chef de Projets Informatiques H/F - Alternance - GRANDES ECOLES DIGITALES",
     "company": "One business School",
     "location": "Angoulême (16)",
     "link": "https://www.meteojob.com/jobs?what=D%C3%A9veloppeur&where=Angoul%C3%AAme%20(16)&facetContract=TRAINING&facetContract=APPRENTICE",
