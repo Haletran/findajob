@@ -35,6 +35,13 @@
     "type": "Alternance"
   },
   {
+    "title": "Stage Chargé·e d'Actions Ecoles H/F",
+    "company": "KPMG",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/60625143.html",
+    "type": "Stage"
+  },
+  {
     "title": "Stagiaire Audit H/F",
     "company": "KPMG",
     "location": "France",
@@ -47,6 +54,13 @@
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/61740210.html",
     "type": "Stage"
+  },
+  {
+    "title": "Alternant Chargé·e de Projets RH Digitaux H/F",
+    "company": "KPMG",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/60625120.html",
+    "type": "Alternance"
   },
   {
     "title": "Alternant Bac+3 - 4 - Administrateur Systèmes Réseaux et Cybersécurité H/F",
@@ -196,20 +210,6 @@
     "type": "Alternance"
   },
   {
-    "title": "Alternant Bac+3 - 4 - Ux - Ui Designer & Marketing Digital H/F",
-    "company": "Live Campus",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/30442345.html",
-    "type": "Alternance"
-  },
-  {
-    "title": "Alternant Bac+3 - 4 - Développeur Web - Logiciel H/F",
-    "company": "Live Campus",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/13354761.html",
-    "type": "Alternance"
-  },
-  {
     "title": "Développeur C++ - Qt H/F - Alternance - GRANDES ECOLES DIGITALES",
     "company": "One business School",
     "location": "Angoulême (16)",
@@ -217,14 +217,14 @@
     "type": "Alternance / Apprentissage - 1 an"
   },
   {
-    "title": "Chef de Projets Informatiques H/F - Alternance - GRANDES ECOLES DIGITALES",
+    "title": "Ingénieur en systèmes de gestion de la maintenance H/F - Alternance - GRANDES ECOLES DIGITALES",
     "company": "One business School",
     "location": "Angoulême (16)",
     "link": "https://www.meteojob.com/jobs?what=D%C3%A9veloppeur&where=Angoul%C3%AAme%20(16)&facetContract=TRAINING&facetContract=APPRENTICE",
     "type": "Alternance / Apprentissage - 1 an"
   },
   {
-    "title": "Ingénieur en systèmes de gestion de la maintenance H/F - Alternance - GRANDES ECOLES DIGITALES",
+    "title": "Chef de Projets Informatiques H/F - Alternance - GRANDES ECOLES DIGITALES",
     "company": "One business School",
     "location": "Angoulême (16)",
     "link": "https://www.meteojob.com/jobs?what=D%C3%A9veloppeur&where=Angoul%C3%AAme%20(16)&facetContract=TRAINING&facetContract=APPRENTICE",
