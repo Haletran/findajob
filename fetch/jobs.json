@@ -1,12 +1,5 @@
 [
   {
-    "title": "Assistant d'Agence - Gestionnaire de Dépannages H/F",
-    "company": "Brunet",
-    "location": "Angoulême - 16",
-    "link": "https://www.hellowork.com/fr-fr/emplois/62108357.html",
-    "type": "Stage"
-  },
-  {
     "title": "Alternance DevOps H/F",
     "company": "Wild Code School",
     "location": "Angoulême - 16",
@@ -207,6 +200,13 @@
     "company": "KPMG",
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/61218734.html",
+    "type": "Alternance"
+  },
+  {
+    "title": "Apprenti·e Communication Digitale & Marque Employeur H/F",
+    "company": "KPMG",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/61191812.html",
     "type": "Alternance"
   },
   {
