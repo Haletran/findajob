@@ -3,7 +3,7 @@
     "title": "Alternance - ingénieur cybersécurité industrielle - Bac + 5 (dépt 16 - Angoulême) F/H",
     "company": "Schneider Electric",
     "location": "",
-    "link": "https://www.welcometothejungle.com/fr/companies/schneider-electric/jobs/alternance-ingenieur-cybersecurite-industrielle-bac-5-dept-16-angouleme-f-h_l-isle-d-espagnac?q=638adb82e74ee7a79275d37dec1a833d&o=ac3a5157-d45d-44af-b14e-a81b27ba6891",
+    "link": "https://www.welcometothejungle.com/fr/companies/schneider-electric/jobs/alternance-ingenieur-cybersecurite-industrielle-bac-5-dept-16-angouleme-f-h_l-isle-d-espagnac?q=04f53d900231c98b6d526f843ea1d19d&o=ac3a5157-d45d-44af-b14e-a81b27ba6891",
     "type": "Alternance"
   },
   {
@@ -112,6 +112,13 @@
     "type": "Alternance"
   },
   {
+    "title": "Apprenti Consultant Risques & Conformité IT H/F",
+    "company": "KPMG",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/62663402.html",
+    "type": "Alternance"
+  },
+  {
     "title": "Chargé·e de Projets RH Digitaux H/F",
     "company": "KPMG",
     "location": "France",
@@ -154,17 +161,17 @@
     "type": "Stage"
   },
   {
+    "title": "Développeur Web Junior - Reconversion Professionnelle H/F",
+    "company": "Alt",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/62628482.html",
+    "type": "Alternance"
+  },
+  {
     "title": "Apprenti·e Chargé·e de RH Généraliste H/F",
     "company": "KPMG",
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/61191752.html",
-    "type": "Alternance"
-  },
-  {
-    "title": "Apprenti·e Communication Digitale & Marque Employeur H/F",
-    "company": "KPMG",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/61191812.html",
     "type": "Alternance"
   },
   {
@@ -175,17 +182,17 @@
     "type": "Alternance"
   },
   {
+    "title": "Apprenti·e Communication Digitale & Marque Employeur H/F",
+    "company": "KPMG",
+    "location": "France",
+    "link": "https://www.hellowork.com/fr-fr/emplois/61191812.html",
+    "type": "Alternance"
+  },
+  {
     "title": "Alternant Chargé·e de Projets RSE H/F",
     "company": "KPMG",
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/61191648.html",
-    "type": "Alternance"
-  },
-  {
-    "title": "Développeur Web Junior - Reconversion Professionnelle H/F",
-    "company": "Alt",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/62628482.html",
     "type": "Alternance"
   },
   {
@@ -207,13 +214,6 @@
     "company": "KPMG",
     "location": "France",
     "link": "https://www.hellowork.com/fr-fr/emplois/59952454.html",
-    "type": "Alternance"
-  },
-  {
-    "title": "Chef.Fe de Projets Social Media H/F",
-    "company": "KPMG",
-    "location": "France",
-    "link": "https://www.hellowork.com/fr-fr/emplois/62326588.html",
     "type": "Alternance"
   },
   {
@@ -257,5 +257,12 @@
     "location": "",
     "link": "https://www.meteojob.com/jobs?what=D%C3%A9veloppeur&where=Angoul%C3%AAme%20(16)&facetContract=TRAINING&facetContract=APPRENTICE",
     "type": "article Stage"
+  },
+  {
+    "title": "ALTERNANCE - Développeur ou Développeuse Power BI",
+    "company": "SNCF",
+    "location": "",
+    "link": "https://www.meteojob.com/jobs?what=D%C3%A9veloppeur&where=Angoul%C3%AAme%20(16)&facetContract=TRAINING&facetContract=APPRENTICE",
+    "type": "article Alternance / Apprentissage"
   }
 ]
